@@ -16,5 +16,4 @@ namespace eShop.Data.Configurations
         }
     }
 
-
 }

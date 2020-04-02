@@ -7,7 +7,7 @@ namespace eShop.Data.Enums
     public enum Status
     {
         Inactive,
-        Actice
+        Active
     }
 
     public enum OrderStatus

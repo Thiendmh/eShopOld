@@ -12,7 +12,7 @@ namespace eShop.Data.Configurations
             builder.HasKey(x => x.Id);
             builder.ToTable("Categories");
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Property(x => x.Status).IsRequired().HasDefaultValue(Status.Actice);
+            builder.Property(x => x.Status).IsRequired().HasDefaultValue(Status.Active);
         }
     }
 
